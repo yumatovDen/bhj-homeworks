@@ -16,17 +16,17 @@ chatWidget.addEventListener("click", function () {
 const robotResponse = function () {
   // Создаем массив ответов от робота-грубияна
   const robotResponses = [
-    "Я ничего не знаю",
-    "Я ничего не понимаю",
-    "Я не хочу отвечать =/",
-    "Ответ найдете в Google",
-    "ЛЯ-ЛЯ-ЛЯ",
-    "БЛА-БЛА-БЛА",
-    "OMAEWA MOU SHINDEIRU",
-    "NANI???",
-    "Ой, всё...",
-    "Всё давай, мне некогда отвечать",
-    "НЫЫЫЫЫЫААААА",
+    "Я не знаю",
+    "Я не в курсе",
+    ""Этот вопрос не ко мне",
+    "Загуглите",
+    "Дождитесь ответа оператора",
+    "Подождите",
+    "Сами подумайте",
+    "Что?",
+    "Мне некогда",
+    "До свиданья",
+    "Не пишите больше",
   ];
 
   const randomIndexResponse = Math.floor(Math.random() * robotResponses.length);
@@ -88,8 +88,8 @@ const robotSendQuestion = function () {
   const robotQuestions = [
     "Вы всё еще тут?",
     "Вы всё еще здесь?",
-    "Работяга на месте?",
-    "Ушли?",
+    "Кто здесь?",
+    "Нет никого?",
   ];
   const randomIndexQuestions = Math.floor(
     Math.random() * robotQuestions.length
